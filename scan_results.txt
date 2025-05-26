@@ -1,0 +1,5 @@
+| IP Address         | Open Ports              | Services                                  |
+| ------------------ | ----------------------- | ----------------------------------------- |
+| 192.168.31.1       | 53, 80, 443, 8443, 8080 | DNS, HTTP, HTTPS, Atlassian-HTTPS, Proxy  |
+| 192.168.31.60      | 1259, 3000, 3001, 7000  | OpenNL-Voice, PPP, Nessus, File Server    |
+| 192.168.31.113     | 135, 139, 445, 6646     | MSRPC, NetBIOS-SSN, Microsoft-DS, Unknown |

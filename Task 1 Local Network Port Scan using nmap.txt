@@ -1,0 +1,24 @@
+ Task 1: Local Network Port Scan using Nmap (Windows)
+
+Objective
+Perform a TCP SYN scan on my local Windows network to identify active devices, open ports, and assess potential security risks. This task is part of the Cyber Security Internship program.
+
+---
+
+Tools Used
+- Nmap for Windows (downloaded from [https://nmap.org/download.html](https://nmap.org/download.html))
+- Operating System: Windows 11
+- Terminal: Command Prompt
+
+---
+
+ Local Network Details
+- My IPv4 Address: `192.168.31.113`
+- Subnet Mask: `255.255.255.0`
+- Network Range Scanned: `192.168.31.0/24`
+
+---
+
+ Command Used in Command Prompt
+```bash
+nmap -sS 192.168.31.0/24 -oN scan_results.txt
